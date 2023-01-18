@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('/img/table.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dealer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dealer-hand {
+    margin-left: -12%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+button {
+    height: 200px;
+    width: 200px;
+    font-size: 60px;
+}
